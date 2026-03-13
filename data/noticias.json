@@ -1,0 +1,17 @@
+[
+  {
+      "titulo": "Nueva Apertura en Madrid",
+      "fecha": "15 de mayo de 2026",
+      "contenido": "Hemos abierto nuestras nuevas oficinas en el centro para estar más cerca de nuestros clientes."
+  },
+  {
+      "titulo": "Premio a la Innovación Web",
+      "fecha": "10 de mayo de 2026",
+      "contenido": "Nuestra plataforma ha sido galardonada por su usabilidad y diseño responsivo."
+  },
+  {
+      "titulo": "Curso de jQuery Avanzado",
+      "fecha": "02 de mayo de 2026",
+      "contenido": "Iniciamos el periodo de inscripción para el taller de desarrollo frontend de este verano."
+  }
+]
