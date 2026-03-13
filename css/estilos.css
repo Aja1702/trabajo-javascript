@@ -446,6 +446,76 @@ footer {
     transform: scale(1.1);
 }
 
+/* --- PÁGINAS LEGALES --- */
+#legal-contenedor {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#legal-contenedor h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#legal-contenedor .fecha {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+#legal-contenedor article {
+    margin-bottom: 25px;
+}
+
+#legal-contenedor h2 {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 10px;
+}
+
+#legal-contenedor p {
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+#legal-contenedor ul {
+    color: #555;
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+#legal-contenedor li {
+    margin-bottom: 10px;
+}
+
+#legal-contenedor .volver {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+#legal-contenedor .volver a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+#legal-contenedor .volver a:hover {
+    color: #16a085;
+}
+
 /* --- DISEÑO RESPONSIVE --- */
 @media (max-width: 768px) {
     #menu-fijo {
