@@ -452,15 +452,19 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c3e50;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
     color: white;
-    padding: 15px 20px;
+    padding: 20px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     z-index: 10000;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+}
+
+body.has-cookie-banner {
+    padding-bottom: 80px;
 }
 
 #cookie-banner p {
