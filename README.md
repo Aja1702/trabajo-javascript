@@ -3,8 +3,8 @@
 Este proyecto forma parte de la evaluación final del módulo de JavaScript Avanzado. Consiste en un sitio web empresarial interactivo que utiliza **HTML5**, **CSS3**, **jQuery** y **AJAX** para gestionar contenido dinámico y cálculos en tiempo real.
 
 ## 🔗 Enlaces de Entrega (Obligatorio)
-* **Repositorio en GitHub:** [PEGA AQUÍ EL ENLACE A TU REPO, ej: https://github.com/usuario/trabajo-js]
-* **Hosting en GitHub Pages:** [PEGA AQUÍ LA URL DE LA WEB VIVA, ej: https://usuario.github.io/trabajo-js/]
+* **Repositorio en GitHub:** https://github.com/Aja1702/trabajo-javascript
+* **Hosting en GitHub Pages:** https://aja1702.github.io/trabajo-javascript/
 
 ## 🛠️ Tecnologías Utilizadas
 - **HTML5/CSS3:** Estructura semántica y diseño responsivo.
