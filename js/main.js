@@ -1,5 +1,19 @@
 $(document).ready(function() {
     
+    // --- BANNER DE COOKIES ---
+    if ($("#cookie-banner").length > 0) {
+        // Comprobar si ya se acceptaron las cookies
+        if (localStorage.getItem("cookiesAceptadas")) {
+            $("#cookie-banner").hide();
+        }
+        
+        // Evento al hacer click en aceptar
+        $("#aceptar-cookies").on("click", function() {
+            localStorage.setItem("cookiesAceptadas", "true");
+            $("#cookie-banner").slideUp();
+        });
+    }
+
     // --- CARGA DE NOTICIAS MEDIANTE AJAX ---
     if ($("#contenedor-noticias").length > 0) {
         $.ajax({
