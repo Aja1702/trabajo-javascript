@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contacto - Mi Empresa</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+		/>
+		<link rel="stylesheet" href="../css/estilos.css" />
+	</head>
+	<body>
+		<!-- Layout wrapper para que el footer siempre esté al final -->
+		<div class="layout-wrapper">
+			<nav id="menu-fijo">
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="galeria.html">Galería</a></li>
+					<li><a href="presupuesto.html">Presupuesto</a></li>
+					<li><a href="contacto.html" class="active">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<main>
+				<section id="contacto-contenedor">
+					<h2>¿Dónde estamos?</h2>
+					<p>Calculamos la ruta desde tu ubicación hasta nuestra oficina</p>
+					<div id="mapa"></div>
+					<p id="ruta-info">Obteniendo tu ubicación...</p>
+
+					<div class="info-contacto">
+						<h3>Nuestra Oficina</h3>
+						<p>Calle Falsa 123, Madrid, España</p>
+						<p>+34 910 00 00 00</p>
+						<p>info@miempresa.com</p>
+					</div>
+				</section>
+			</main>
+
+			<footer>
+				<div class="footer-content">
+					<div class="footer-section">
+						<h4>Contacto</h4>
+						<p>Calle Falsa 123, Madrid</p>
+						<p>Tel: 910 00 00 00</p>
+					</div>
+					<div class="footer-section">
+						<h4>Redes Sociales</h4>
+						<div class="social-icons">
+							<a href="#"
+								><img
+									src="../assets/icons/socialmedia/icon-fb.png"
+									alt="Facebook"
+									width="30"
+									height="30"
+							/></a>
+							<a href="#"
+								><img
+									src="../assets/icons/socialmedia/icon-ig.png"
+									alt="Instagram"
+									width="30"
+									height="30"
+							/></a>
+							<a href="#"
+								><img
+									src="../assets/icons/socialmedia/icon-tw.png"
+									alt="Twitter"
+									width="30"
+									height="30"
+							/></a>
+						</div>
+					</div>
+					<div class="footer-section">
+						<a href="aviso-legal.html">Aviso Legal</a>
+						<span class="separator">|</span>
+						<a href="politica-cookies.html">Política de Cookies</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="../js/contacto.js"></script>
+	</body>
+</html>

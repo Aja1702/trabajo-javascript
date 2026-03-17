@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Presupuesto - Mi Empresa</title>
+		<link rel="stylesheet" href="../css/estilos.css" />
+	</head>
+	<body>
+		<!-- Layout wrapper para que el footer siempre esté al final -->
+		<div class="layout-wrapper">
+			<nav id="menu-fijo">
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="galeria.html">Galería</a></li>
+					<li><a href="presupuesto.html" class="active">Presupuesto</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<main>
+				<section id="presupuesto-contenedor">
+					<h2>Solicita tu Presupuesto Personalizado</h2>
+					<form id="formulario-presupuesto">
+						<fieldset>
+							<legend>Datos de Contacto</legend>
+							<div class="campo">
+								<input
+									type="text"
+									id="nombre"
+									name="nombre"
+									placeholder="Nombre"
+									required
+								/>
+								<input
+									type="text"
+									id="apellidos"
+									name="apellidos"
+									placeholder="Apellidos"
+									required
+								/>
+							</div>
+							<div class="campo">
+								<input
+									type="tel"
+									id="telefono"
+									name="telefono"
+									placeholder="Teléfono (9 dígitos)"
+									pattern="[0-9]{9}"
+									required
+								/>
+								<input
+									type="email"
+									id="email"
+									name="email"
+									placeholder="Correo Electrónico"
+									required
+								/>
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<legend>Detalles del Servicio</legend>
+							<label for="producto">Selecciona el Producto/Servicio:</label>
+							<select id="producto">
+								<option value="0">Seleccione...</option>
+								<option value="500">Web Básica (500€)</option>
+								<option value="1200">E-commerce (1200€)</option>
+								<option value="2500">App a medida (2500€)</option>
+							</select>
+
+							<label for="plazo">Plazo estimado (meses):</label>
+							<input type="number" id="plazo" value="1" min="1" max="24" />
+
+							<label>Opciones adicionales (Extras):</label>
+							<div class="extras">
+								<label class="checkbox-label">
+									<input type="checkbox" class="extra" value="100" />
+									Optimización SEO (+100€)
+								</label>
+								<label class="checkbox-label">
+									<input type="checkbox" class="extra" value="200" /> Soporte
+									Premium (+200€)
+								</label>
+								<label class="checkbox-label">
+									<input type="checkbox" class="extra" value="150" /> Hosting
+									Pro (+150€)
+								</label>
+							</div>
+						</fieldset>
+
+						<div id="resultado-presupuesto">
+							<h3>Presupuesto Estimado: <span id="total">0</span>€</h3>
+						</div>
+
+						<div class="terminos">
+							<input type="checkbox" id="condiciones-privacidad" required />
+							<label for="condiciones-privacidad"
+								>He leído y acepto las condiciones legales</label
+							>
+						</div>
+
+						<button type="submit" id="btn-enviar">Enviar Solicitud</button>
+						<button type="reset" id="btn-reset">Limpiar Datos</button>
+					</form>
+				</section>
+			</main>
+
+			<footer>
+				<div class="footer-content">
+					<div class="footer-section">
+						<h4>Contacto</h4>
+						<p>Calle Falsa 123, Madrid</p>
+						<p>Tel: 910 00 00 00</p>
+					</div>
+					<div class="footer-section">
+						<h4>Redes Sociales</h4>
+						<div class="social-icons">
+							<a href="#"
+								><img
+									src="../assets/icons/socialmedia/icon-fb.png"
+									alt="Facebook"
+									width="30"
+									height="30"
+							/></a>
+							<a href="#"
+								><img
+									src="../assets/icons/socialmedia/icon-ig.png"
+									alt="Instagram"
+									width="30"
+									height="30"
+							/></a>
+							<a href="#"
+								><img
+									src="../assets/icons/socialmedia/icon-tw.png"
+									alt="Twitter"
+									width="30"
+									height="30"
+							/></a>
+						</div>
+					</div>
+					<div class="footer-section">
+						<a href="aviso-legal.html">Aviso Legal</a>
+						<span class="separator">|</span>
+						<a href="politica-cookies.html">Política de Cookies</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="../js/presupuesto.js"></script>
+	</body>
+</html>

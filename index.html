@@ -7,82 +7,97 @@
 		<link rel="stylesheet" href="css/estilos.css" />
 	</head>
 	<body>
-		<nav id="menu-fijo">
-			<ul>
-				<li><a href="index.html" class="active">Inicio</a></li>
-				<li><a href="galeria.html">Galería</a></li>
-				<li><a href="presupuesto.html">Presupuesto</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
+		<!-- Layout wrapper para que el footer siempre esté al final -->
+		<div class="layout-wrapper">
+			<nav id="menu-fijo">
+				<ul>
+					<li><a href="index.html" class="active">Inicio</a></li>
+					<li><a href="views/galeria.html">Galería</a></li>
+					<li><a href="views/presupuesto.html">Presupuesto</a></li>
+					<li><a href="views/contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
 
-		<header id="banner">
-			<h1>Bienvenidos a Nuestra Web</h1>
-			<p>Expertos en soluciones digitales interactivas.</p>
-		</header>
+			<main>
+				<header id="banner">
+					<h1>Bienvenidos a Nuestra Web</h1>
+					<p>Expertos en soluciones digitales interactivas.</p>
+				</header>
 
-		<section id="servicios">
-			<h2>Nuestros Servicios</h2>
-			<div class="grid-servicios">
-				<div class="card">Desarrollo Web</div>
-				<div class="card">SEO Avanzado</div>
-				<div class="card">Diseño UI/UX</div>
-			</div>
-		</section>
+				<section id="servicios">
+					<h2>Nuestros Servicios</h2>
+					<div class="grid-servicios">
+						<div class="card">Desarrollo Web</div>
+						<div class="card">SEO Avanzado</div>
+						<div class="card">Diseño UI/UX</div>
+					</div>
+				</section>
 
-		<section id="noticias-seccion">
-			<h2>Últimas Noticias</h2>
-			<div id="contenedor-noticias">
-				<p>Cargando noticias...</p>
-			</div>
-		</section>
+				<section id="noticias-seccion">
+					<h2>Últimas Noticias</h2>
+					<div id="contenedor-noticias">
+						<p>Cargando noticias...</p>
+					</div>
+				</section>
 
-		<section id="nosotros">
-			<h2>Sobre Nosotros</h2>
-			<p>Somos un equipo apasionado por la tecnología y la innovación.</p>
-		</section>
+				<section id="nosotros">
+					<h2>Sobre Nosotros</h2>
+					<p>Somos un equipo apasionado por la tecnología y la innovación.</p>
+				</section>
+			</main>
 
-		<footer>
-			<div class="footer-content">
-				<div class="footer-section">
-					<h4>Contacto</h4>
-					<p>Calle Falsa 123, Madrid</p>
-					<p>Tel: 910 00 00 00</p>
-				</div>
-				<div class="footer-section">
-					<h4>Redes Sociales</h4>
-					<div class="social-icons">
-						<a href="#"
-							><img src="img/socialmedia/icon-fb.png" alt="Facebook" width="30"
-						/></a>
-						<a href="#"
-							><img
-								src="img/socialmedia/icon-ig.png"
-								alt="Instagram"
-								width="30"
-						/></a>
-						<a href="#"
-							><img src="img/socialmedia/icon-tw.png" alt="Twitter" width="30"
-						/></a>
+			<footer>
+				<div class="footer-content">
+					<div class="footer-section">
+						<h4>Contacto</h4>
+						<p>Calle Falsa 123, Madrid</p>
+						<p>Tel: 910 00 00 00</p>
+					</div>
+					<div class="footer-section">
+						<h4>Redes Sociales</h4>
+						<div class="social-icons">
+							<a href="#"
+								><img
+									src="assets/icons/socialmedia/icon-fb.png"
+									alt="Facebook"
+									width="30"
+									height="30"
+							/></a>
+							<a href="#"
+								><img
+									src="assets/icons/socialmedia/icon-ig.png"
+									alt="Instagram"
+									width="30"
+									height="30"
+							/></a>
+							<a href="#"
+								><img
+									src="assets/icons/socialmedia/icon-tw.png"
+									alt="Twitter"
+									width="30"
+									height="30"
+							/></a>
+						</div>
+					</div>
+					<div class="footer-section">
+						<a href="views/aviso-legal.html">Aviso Legal</a>
+						<span class="separator">|</span>
+						<a href="views/politica-cookies.html">Política de Cookies</a>
 					</div>
 				</div>
-				<div class="footer-section">
-					<a href="aviso-legal.html">Aviso Legal</a> |
-					<a href="politica-cookies.html">Política de Cookies</a>
-				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 
 		<!-- Banner de Cookies -->
 		<div id="cookie-banner">
 			<p>
 				Utilizamos cookies para mejorar tu experiencia.
-				<a href="politica-cookies.html">Más información</a>
+				<a href="views/politica-cookies.html">Más información</a>
 			</p>
 			<button id="aceptar-cookies">Aceptar</button>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-		<script src="js/main.js"></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>
